@@ -1,4 +1,4 @@
-# 라인프렌즈를 모티브로 한, LIFE FRIENDS 🚀🚀
+# 라인프렌즈를 모티브로 한, LIFE FRIENDS 🚀
 
 [데모 영상](https://www.youtube.com/watch?v=r8UtkjeuLEU&t=46s)
 
