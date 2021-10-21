@@ -69,6 +69,8 @@
 
 ### ✔️ 메인 페이지
 
+<br />
+
 ![](https://images.velog.io/images/april_5/post/0d21a5c4-6f41-4062-af48-9b6a294b0650/main.gif)
 
   <br /><br />
