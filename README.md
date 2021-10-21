@@ -40,9 +40,13 @@
 
 ## :: 공통 목표
 
-#### 1. Scrum 방식의 업무 방법 익히기
+### 1. Scrum 방식의 업무 방법 익히기
+
+<br />
 
 ![](https://images.velog.io/images/april_5/post/eb35258a-23c8-4d4c-9f41-0fbd168f058b/KakaoTalk_Photo_2021-05-22-20-56-12.png)
+
+<br />
 
 - [x] Scrum - 스크럼 진행 방식에 대해서 이해했고 Trello 와 같은 tool 을 활용하여 스크럼 방식 아래 프로젝트 진행할 수 있다
 - [x] Standup Meeting - 매일 아침 미팅을 통해 어제 한 일, 오늘 할 일, blocker 세 가지를 공유하며 팀원들과 미팅을 진행할 수 있다.
@@ -51,7 +55,7 @@
 - [x] 문제 해결 능력 - 모르는 과제를 마주하는 경우 Google 검색, stackoverflow 등을 활용하여 문제를 해결할 수 있다.
 - [x] Q&A - 스스로 문제 해결이 잘 안 되는 경우, 혹은 누군가가 도움을 요청하는 경우 동기, 혹은 멘토와 올바른 방법으로 질문과 대답을 주고 받을 수 있다.
 
-#### 2. Trello를 활용하여 프로그램 관리하기
+### 2. Trello를 활용하여 프로그램 관리하기
 
 > Trello란 팀 프로젝트 진행 시 유용하게 사용 되는 프로젝트 관리 프로그램
 
@@ -61,27 +65,31 @@
 
 ---
 
-## 구현 사항
+## :: 구현 사항
 
- - 메인 페이지
+### ✔️ 메인 페이지
 
-  ![](https://images.velog.io/images/april_5/post/0d21a5c4-6f41-4062-af48-9b6a294b0650/main.gif)
-
-  <br /><br />
-
-- 카테고리 페이지
-
-  ![](https://images.velog.io/images/april_5/post/d199e768-8c5f-41b4-a3be-2ba68c6155ff/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-06%2013.30.52.png)
+![](https://images.velog.io/images/april_5/post/0d21a5c4-6f41-4062-af48-9b6a294b0650/main.gif)
 
   <br /><br />
 
-- 제품 세부 페이지
+### ✔️ 카테고리 페이지
+
+![](https://images.velog.io/images/april_5/post/d199e768-8c5f-41b4-a3be-2ba68c6155ff/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-06%2013.30.52.png)
+
+  <br /><br />
+
+### ✔️ 제품 세부 페이지
     
-  ![](https://images.velog.io/images/april_5/post/08c07ad3-5f3e-45cb-9497-94e834f9566d/%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A8.gif)
+![](https://images.velog.io/images/april_5/post/08c07ad3-5f3e-45cb-9497-94e834f9566d/%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A8.gif)
 
-  ![](https://images.velog.io/images/april_5/post/295135b5-f5d5-401f-8c5c-71844dbc64f8/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-06%2013.31.40.png) 
+<br />
 
-  ![](https://images.velog.io/images/april_5/post/08c07ad3-5f3e-45cb-9497-94e834f9566d/%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A8.gif)
+![](https://images.velog.io/images/april_5/post/295135b5-f5d5-401f-8c5c-71844dbc64f8/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-07-06%2013.31.40.png) 
+
+<br />
+
+![](https://images.velog.io/images/april_5/post/08c07ad3-5f3e-45cb-9497-94e834f9566d/%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A8.gif)
 
 <br />
 <br />
@@ -91,4 +99,4 @@
 
 ## 평생친구, LIFE FRIENDS
 
- ![](https://images.velog.io/images/april_5/post/16be2a41-b9b1-4e81-9283-de23e22c68ce/iOS%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg) 
+![](https://images.velog.io/images/april_5/post/16be2a41-b9b1-4e81-9283-de23e22c68ce/iOS%20%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg) 
