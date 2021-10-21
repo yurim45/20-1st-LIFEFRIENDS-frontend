@@ -71,7 +71,7 @@
 
 <br />
 
-![](https://images.velog.io/images/april_5/post/0d21a5c4-6f41-4062-af48-9b6a294b0650/main.gif)
+![](https://media.vlpt.us/images/april_5/post/df2d25b1-3b03-4fca-a6c1-72bf8d1cea78/main.gif)
 
   <br /><br />
 
