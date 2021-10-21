@@ -1,0 +1,255 @@
+{
+  "results": [
+    {
+      "menuId": 1,
+      "menuName": "캐릭터",
+      "categoryList": [
+        {
+          "categoryId": 1,
+          "categoryName": "브라운앤프렌즈"
+        },
+        {
+          "categoryId": 2,
+          "categoryName": "BT21"
+        },
+        {
+          "categoryId": 3,
+          "categoryName": "브롤스타즈"
+        }
+      ]
+    },
+    {
+      "menuId": 2,
+      "menuName": "NEW",
+      "categoryList": []
+    },
+    {
+      "menuId": 3,
+      "menuName": "선물추천",
+      "categoryList": []
+    },
+    {
+      "menuId": 4,
+      "menuName": "THEME",
+      "categoryList": [
+        {
+          "categoryId": 1,
+          "categoryName": "브라운앤프렌즈"
+        },
+        {
+          "categoryId": 2,
+          "categoryName": "샐리프렌즈"
+        }
+      ]
+    },
+    {
+      "menuId": 5,
+      "menuName": "BT21 BABY",
+      "categoryList": [
+        {
+          "categoryId": 1,
+          "categoryName": "문구"
+        },
+        {
+          "categoryId": 2,
+          "categoryName": "리빙"
+        },
+        {
+          "categoryId": 3,
+          "categoryName": "디지털"
+        },
+        {
+          "categoryId": 4,
+          "categoryName": "패션잡화"
+        },
+        {
+          "categoryId": 5,
+          "categoryName": "인형&쿠션"
+        }
+      ]
+    },
+    {
+      "menuId": 6,
+      "menuName": "SALE",
+      "categoryList": []
+    },
+    {
+      "menuId": 7,
+      "menuName": "토이",
+      "categoryList": [
+        {
+          "categoryId": 1,
+          "categoryName": "중형인형 이상"
+        },
+        {
+          "categoryId": 2,
+          "categoryName": "미니인형"
+        },
+        {
+          "categoryId": 3,
+          "categoryName": "쿠션"
+        },
+        {
+          "categoryId": 4,
+          "categoryName": "피규어"
+        }
+      ]
+    },
+    {
+      "menuId": 8,
+      "menuName": "디자인문구",
+      "categoryList": [
+        {
+          "categoryId": 1,
+          "categoryName": "다이어리 / 플래너"
+        },
+        {
+          "categoryId": 2,
+          "categoryName": "노트 / 메모지"
+        },
+        {
+          "categoryId": 3,
+          "categoryName": "필기류 / 케이스"
+        },
+        {
+          "categoryId": 4,
+          "categoryName": "데코레이션"
+        },
+        {
+          "categoryId": 5,
+          "categoryName": "스티커 시리즈"
+        }
+      ]
+    },
+    {
+      "menuId": 9,
+      "menuName": "디지털",
+      "categoryList": [
+        {
+          "categoryId": 1,
+          "categoryName": "폰케이스"
+        },
+        {
+          "categoryId": 2,
+          "categoryName": "주변기기"
+        },
+        {
+          "categoryId": 3,
+          "categoryName": "스마트기기"
+        },
+        {
+          "categoryId": 4,
+          "categoryName": "디지털케이스"
+        }
+      ]
+    },
+    {
+      "menuId": 10,
+      "menuName": "패션의류",
+      "categoryList": [
+        {
+          "categoryId": 1,
+          "categoryName": "반팔의류"
+        },
+        {
+          "categoryId": 2,
+          "categoryName": "긴팔의류"
+        },
+        {
+          "categoryId": 3,
+          "categoryName": "라운지웨어"
+        },
+        {
+          "categoryId": 4,
+          "categoryName": "양말 / 슬리퍼"
+        }
+      ]
+    },
+    {
+      "menuId": 11,
+      "menuName": "패션잡화",
+      "categoryList": [
+        {
+          "categoryId": 1,
+          "categoryName": "가방"
+        },
+        {
+          "categoryId": 2,
+          "categoryName": "키홀더"
+        },
+        {
+          "categoryId": 3,
+          "categoryName": "뷰티"
+        },
+        {
+          "categoryId": 4,
+          "categoryName": "모자 / 마스크"
+        },
+        {
+          "categoryId": 5,
+          "categoryName": "지갑 / 파우치"
+        }
+      ]
+    },
+    {
+      "menuId": 12,
+      "menuName": "리빙",
+      "categoryList": [
+        {
+          "categoryId": 1,
+          "categoryName": "패브릭 / 홈데코"
+        },
+        {
+          "categoryId": 2,
+          "categoryName": "식기 / 텀블러"
+        },
+        {
+          "categoryId": 3,
+          "categoryName": "주방 / 욕실"
+        },
+        {
+          "categoryId": 4,
+          "categoryName": "캠핑용품"
+        },
+        {
+          "categoryId": 5,
+          "categoryName": "가공식품"
+        },
+        {
+          "categoryId": 6,
+          "categoryName": "골프용품"
+        }
+      ]
+    },
+    {
+      "menuId": 13,
+      "menuName": "전체상품",
+      "categoryList": []
+    },
+    {
+      "menuId": 14,
+      "menuName": "묻고 답하기",
+      "categoryList": []
+    },
+    {
+      "menuId": 15,
+      "menuName": "공지사항",
+      "categoryList": []
+    },
+    {
+      "menuId": 16,
+      "menuName": "리뷰이벤트",
+      "categoryList": []
+    },
+    {
+      "menuId": 17,
+      "menuName": "쇼핑스토리",
+      "categoryList": []
+    },
+    {
+      "menuId": 18,
+      "menuName": "판매자정보",
+      "categoryList": []
+    }
+  ]
+}

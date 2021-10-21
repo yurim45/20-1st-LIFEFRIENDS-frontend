@@ -1,0 +1,47 @@
+@import '../../../../styles/Common.scss';
+
+.mainLargeCard {
+  @include flexBox(center, center, row);
+  flex-wrap: wrap;
+  height: 490px;
+  overflow: hidden;
+
+  div {
+    width: 430px;
+    height: 490px;
+    padding: 14px 14px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/e/e6/Finger_heart.png');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 52% 50%;
+
+    :hover {
+      opacity: 0.2;
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 408px;
+      height: 365px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    h3 {
+      margin-top: 19px;
+      font-size: 24px;
+      letter-spacing: -1px;
+    }
+
+    p {
+      display: -webkit-box;
+      width: 408px;
+      margin-top: 12px;
+      font-size: 13px;
+      text-align: justify;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+}

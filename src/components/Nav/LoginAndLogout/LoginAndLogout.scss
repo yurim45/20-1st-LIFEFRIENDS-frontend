@@ -1,0 +1,83 @@
+@import '../../../styles/Common.scss';
+
+@mixin marginHeaderLeftRight {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+%cartMypageMypickButton {
+  margin-right: 10px;
+  font-size: 15px;
+  color: $--font-desc-gray;
+}
+
+.LoginAndLogout {
+  @include flexBox(space-between, center, row);
+
+  .loggedIn {
+    @include flexBox(space-between, center, row);
+    i {
+      padding-right: 10px;
+    }
+  }
+
+  .loggedInInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      .loggedInBox {
+        display: block;
+      }
+    }
+
+    .loggedInBox {
+      display: none;
+      position: absolute;
+      top: 18px;
+      line-height: 30px;
+      padding: 10px;
+      color: $--font-desc-gray;
+      background-color: white;
+      border-bottom: 1px solid $--border-line;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+      text-align: center;
+      z-index: 999;
+    }
+  }
+}
+
+.logoutButton {
+  @extend %cartMypageMypickButton;
+}
+
+.goToPickStore {
+  @extend %cartMypageMypickButton;
+}
+
+.goToMypage {
+  @extend %cartMypageMypickButton;
+}
+
+.goToCart {
+  @extend %cartMypageMypickButton;
+}
+
+.loggedInbox {
+  display: none;
+}
+
+.goToLogin {
+  .loginButton {
+    @extend %cartMypageMypickButton;
+  }
+}
+
+.viewTotal {
+  @include marginHeaderLeftRight();
+  font-size: 15px;
+}

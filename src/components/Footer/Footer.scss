@@ -1,0 +1,133 @@
+@import '../../styles/Common.scss';
+
+$font-size-supersmall: 12px;
+$font-size-extrasmall: 13px;
+$font-size-small: 14px;
+$font-size-regular: 15px;
+$font-size-medium: 16px;
+$font-weight-light: 200;
+$font-weight-regular: 300;
+$font-weight-medium: 400;
+$font-weight-bold: 600;
+
+.footer {
+  margin: 10px auto;
+
+  .brandInfo {
+    @include flexBox(center, center, column);
+    padding-left: 50px;
+    font-family: ‘나눔고딕’, ‘Nanum Gothic’, ‘Malgun Gothic’, ‘맑은 고딕’,
+      sans-serif;
+    color: $--font-desc-gray;
+
+    .notice {
+      @include flexBox(flex-start, center, row);
+      width: 1280px;
+      height: 54px;
+      margin-top: 60px;
+      padding-left: 20px;
+      background: #f6f8f9;
+      color: $--font-desc-gray;
+      font-size: $font-size-small;
+      font-weight: $font-weight-medium;
+
+      i {
+        margin-right: 6px;
+        color: $--main-green;
+        font-size: 12px;
+      }
+
+      span {
+        margin-left: 16px;
+        font-size: $font-size-small;
+        font-weight: $font-weight-bold;
+        color: $--font-title-black;
+      }
+    }
+
+    .footerMenu {
+      @include flexBox(flex-start, center, row);
+      margin: 12px 0;
+      width: 1280px;
+      color: $--font-title-black;
+
+      li {
+        padding: 0 10px;
+        margin: 18px 0;
+        border-right: 1px solid $--border-line;
+        font-size: $font-size-small;
+        font-weight: $font-weight-medium;
+
+        &:first-of-type {
+          padding-left: 0;
+        }
+      }
+    }
+    .companyContact {
+      @include flexBox(flex-start, flex-start, row);
+      width: 1280px;
+      line-height: 24px;
+      font-size: $font-size-small;
+      font-weight: $font-weight-regular;
+      color: $--font-desc-gray;
+
+      .lifer {
+        height: 111px;
+
+        b {
+          font-weight: $font-weight-bold;
+          color: $--font-title-black;
+        }
+      }
+      .QnA {
+        height: 111px;
+        margin-left: 100px;
+
+        b {
+          font-weight: $font-weight-bold;
+          color: $--font-title-black;
+        }
+
+        span {
+          font-weight: $font-weight-medium;
+        }
+      }
+      .conflicts {
+        height: 67px;
+        margin-left: 100px;
+
+        b {
+          font-weight: $font-weight-bold;
+          color: $--font-title-black;
+        }
+
+        span {
+          font-weight: $font-weight-medium;
+        }
+      }
+    }
+
+    .companyGuideline {
+      width: 1280px;
+      margin: 56px 0 24px 0;
+      font-size: $font-size-small;
+      font-weight: $font-weight-regular;
+    }
+
+    .copyRights {
+      @include flexBox(flex-start, center, row);
+      width: 1280px;
+      margin-bottom: 110px;
+
+      span {
+        color: $--main-green;
+      }
+
+      p {
+        margin-left: 10px;
+        font-size: $font-size-extrasmall;
+        font-weight: $font-weight-medium;
+      }
+    }
+  }
+}

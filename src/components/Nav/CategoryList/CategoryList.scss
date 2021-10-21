@@ -1,0 +1,121 @@
+@import '../../../styles/Common.scss';
+
+.totalCategoryList {
+  border-bottom: 1px solid $--border-line;
+
+  .categoryList {
+    @include flexBox(space-around, center, row);
+    flex-wrap: wrap;
+    font-family: '나눔고딕', 'Nanum Gothic', 'Malgun Gothic', '맑은 고딕',
+      sans-serif;
+
+    .categoryMenu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      height: 35px;
+      font-size: 16px;
+
+      .categoryText {
+        cursor: pointer;
+        &:hover {
+          font-weight: bolder;
+        }
+      }
+
+      .subMenuList {
+        display: none;
+        position: absolute;
+        top: 10px;
+        width: 180px;
+        margin: 10px auto;
+        padding: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+        background-color: rgb(255, 255, 255);
+        border-radius: 5%;
+        font-size: 16px;
+        text-align: center;
+        z-index: 100;
+        cursor: pointer;
+
+        .subMenu {
+          display: block;
+          margin: 15px 0px;
+          text-decoration: none;
+          color: black;
+          &:hover {
+            font-weight: bolder;
+          }
+        }
+      }
+    }
+
+    .showMoreButton {
+      position: relative;
+      display: flex;
+      height: 35px;
+      width: 70px;
+      font-size: 16px;
+    }
+
+    .categoryMenu:hover .subMenuList {
+      display: block;
+    }
+  }
+
+  .categoryListNextLine {
+    @include flexBox(space-around, center, row);
+    flex-wrap: wrap;
+    width: 860px;
+    font-family: '나눔고딕', 'Nanum Gothic', 'Malgun Gothic', '맑은 고딕',
+      sans-serif;
+
+    .categoryMenuNextLine {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      height: 35px;
+      font-size: 16px;
+
+      .categoryTextNextLine {
+        cursor: pointer;
+        &:hover {
+          font-weight: bolder;
+        }
+      }
+
+      .subMenuListNextLine {
+        display: none;
+        position: absolute;
+        top: 10px;
+        width: 170px;
+        margin: 10px auto;
+        padding: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.17);
+        background-color: white;
+        border-radius: 5%;
+        font-size: 16px;
+        text-align: center;
+        z-index: 100;
+        cursor: pointer;
+
+        .subMenuNextLine {
+          display: block;
+          margin: 15px;
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+
+    .categoryMenuNextLine:hover .subMenuListNextLine {
+      display: block;
+    }
+  }
+  i {
+    margin-left: 5px;
+  }
+}

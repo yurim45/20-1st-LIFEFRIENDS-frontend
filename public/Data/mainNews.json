@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "귀여움에 디테일을 담아",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, facilis similique ullam nemo neque veniam reiciendis dicta placeat saepe alias officiis error inventore numquam, nihil natus quis voluptates sunt illo!",
+    "imgAlt": "character lego",
+    "imgUrl": "https://images.unsplash.com/photo-1526505262320-81542978f63b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGNoYXJhY3RlciUyMGxlZ298ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 2,
+    "title": "세상에 없던 새로운 만남",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, facilis similique ullam nemo neque veniam reiciendis dicta placeat saepe alias officiis error inventore numquam, nihil natus quis voluptates sunt illo!",
+    "imgAlt": "character lego",
+    "imgUrl": "https://images.unsplash.com/photo-1525097522700-a4b80b773931?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxjaGFyYWN0ZXIlMjBsZWdvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 3,
+    "title": "함께하면 찰떡궁합",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    "imgAlt": "character lego",
+    "imgUrl": "https://images.unsplash.com/photo-1550747528-cdb45925b3f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGxlZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 4,
+    "title": "인형 예약 판매",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At, facilis similique ullam nemo neque veniam reiciendis",
+    "imgAlt": "character lego",
+    "imgUrl": "https://images.unsplash.com/photo-1525097522700-a4b80b773931?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxjaGFyYWN0ZXIlMjBsZWdvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  },
+  {
+    "id": 5,
+    "title": "LIFE FRIENDS & character",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis similique ullam nemo neque veniam reiciendis",
+    "imgAlt": "character lego",
+    "imgUrl": "https://images.unsplash.com/photo-1526505262320-81542978f63b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fGNoYXJhY3RlciUyMGxlZ298ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+  }
+]

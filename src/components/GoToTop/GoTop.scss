@@ -1,0 +1,23 @@
+.goToTop {
+  position: fixed;
+  bottom: 45px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 46px;
+  color: #030303;
+  background: #ffffff;
+  border: 1px solid #dbdddf;
+  font-size: 20px;
+  text-align: center;
+  z-index: 999;
+
+  &:hover {
+    background: rgb(241, 243, 245);
+  }
+
+  i {
+    display: flex;
+    justify-content: center;
+  }
+}

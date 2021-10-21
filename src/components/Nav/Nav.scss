@@ -1,0 +1,115 @@
+@import '../../styles/Common.scss';
+
+@mixin marginHeaderLeftRight {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navAndHeader {
+  width: 1280px;
+  margin: 10px auto;
+
+  .lifeStoreNav {
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    margin: 10px auto;
+
+    .navHeader {
+      @include flexBox(space-between, center, row);
+      padding: 0 10px;
+      border-bottom: 1px solid $--border-line;
+      color: $--font-desc-gray;
+      font-size: 15px;
+      .navHeaderLeft {
+        .toMoveNaverPage {
+          @include marginHeaderLeftRight();
+        }
+
+        .toMoveNaverShopping {
+          @include marginHeaderLeftRight();
+
+          i {
+            margin: 5px;
+          }
+        }
+      }
+    }
+    .navBody {
+      .logoAndSearch {
+        @include flexBox(center, center, row);
+
+        .logoLifeStore {
+          @include flexBox(center, center, row);
+          margin: 22px auto;
+          color: $--font-title-black;
+          font-size: 34px;
+          font-weight: bolder;
+        }
+
+        .searchBox {
+          .search {
+            position: absolute;
+            right: 5px;
+            top: 70px;
+            height: 40px;
+            width: 218px;
+            margin-top: 20px 0;
+            margin-bottom: 22px;
+            padding-left: 10px;
+            border: 1px solid $--font-desc-gray;
+            border-radius: 10px;
+            font-size: 13px;
+          }
+
+          .searchButton {
+            position: absolute;
+            right: 20px;
+            top: 84px;
+          }
+
+          .searchListContainer {
+            position: absolute;
+            top: 110.5px;
+            right: 4px;
+            width: 218px;
+            padding: 16px 0;
+            max-height: 450px;
+            background: white;
+            border: 1px solid $--font-desc-gray;
+            border-radius: 10px;
+            box-shadow: 0 30px 90px rgba(0, 0, 0, 0.09);
+            z-index: 30;
+            overflow: hidden;
+            display: none;
+
+            &.open {
+              display: block;
+            }
+
+            li {
+              @include flexBox(flex-start, center, row);
+              width: 268px;
+              height: 32px;
+              font-size: 13px;
+              cursor: pointer;
+
+              &:hover {
+                background: rgba(0, 0, 0, 0.03);
+                transition: all 0.2s ease;
+              }
+
+              div {
+                @include flexBox(center, flex-start, column);
+                width: 100%;
+                padding: 0 8px 0 8px;
+                font-weight: 400;
+                word-break: break-all;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

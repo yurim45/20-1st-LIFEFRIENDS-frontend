@@ -1,0 +1,29 @@
+@import '../../../../styles/Common.scss';
+
+.mainGift {
+  height: 860px;
+  padding: 100px 0 140px 0;
+  overflow: hidden;
+
+  article {
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+    div {
+      .prev,
+      .next {
+        position: absolute;
+        top: 260px;
+      }
+
+      .prev {
+        left: -40px;
+      }
+
+      .next {
+        right: -40px;
+      }
+    }
+  }
+}

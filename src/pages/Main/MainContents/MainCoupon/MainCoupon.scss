@@ -1,0 +1,72 @@
+@import '../../../../styles/Common.scss';
+
+.mainCoupon {
+  height: 450px;
+  background-color: #2f2f2f;
+
+  div {
+    @include flexBox(space-between, center, row);
+    width: 1280px;
+    height: 100%;
+    margin: auto;
+    padding: 80px 0 80px 86px;
+
+    .coupon {
+      @include flexBox(space-around, center, column);
+      width: 500px;
+      height: 190px;
+      padding: 20px 0;
+      background-color: #fff;
+      border-radius: 20px;
+
+      h3 {
+        color: #6b90dc;
+        font-size: 15px;
+        font-weight: 800;
+      }
+
+      p:nth-child(2) {
+        font-size: 60px;
+        font-weight: 900;
+        letter-spacing: -1px;
+
+        span {
+          font-size: 46px;
+        }
+      }
+
+      p:last-child {
+        color: $--font-desc-gray;
+        font-style: italic;
+      }
+    }
+
+    .couponDesc {
+      @include flexBox(center, flex-start, column);
+      height: 150px;
+      padding: 0 100px;
+
+      h2 {
+        color: #fff;
+        font-size: 32px;
+      }
+
+      p {
+        margin-top: 12px;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+      }
+
+      button {
+        margin: 16px 0 0 0;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .couponDesc {
+    display: none;
+  }
+}

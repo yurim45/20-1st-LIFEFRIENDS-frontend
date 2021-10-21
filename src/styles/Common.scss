@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+
+// flexBox
+@mixin flexBox($justify-content, $align-items, $flex-direction) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  flex-direction: $flex-direction;
+}
+// color
+$--main-green: #03c75a;
+
+// border-color
+$--border-line: #c2c2c2;
+
+// font-color
+$--font-title-black: #030303;
+$--font-desc-gray: #888888;
+
+// icon-color
+$--heart-color: #f84f50;
+
+body {
+  font-family: '나눔고딕', 'Nanum Gothic', 'Malgun Gothic',
+    '맑은 고딕' sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-family: inherit;
+  cursor: pointer;
+}

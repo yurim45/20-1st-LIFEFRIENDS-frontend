@@ -1,0 +1,11 @@
+const BASE_URL = 'http://10.58.7.181:8000';
+export const GET_CATEGORY_API = `${BASE_URL}/products`;
+export const GET_AUTHORIZATION_API = `${BASE_URL}/users/user`;
+export const GET_LOGIN_API = `${BASE_URL}/users/login`;
+export const GET_SIGNUP_API = `${BASE_URL}/users/signup`;
+export const GET_COUPON_API = `${BASE_URL}/users/coupon/40%`;
+export const GET_GIFT_API = `${BASE_URL}/products/categories?menu=선물추천`;
+export const GET_REVIEW_API = `${BASE_URL}/reviews`;
+export const GET_CART_API = `${BASE_URL}/orders/cart`;
+export const GET_PRODUCT_API = `${BASE_URL}/products`;
+export const GET_NAVBAR_API = `${BASE_URL}/products/menu`;

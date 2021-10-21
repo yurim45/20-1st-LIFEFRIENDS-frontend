@@ -1,0 +1,51 @@
+@import '../../../styles/Common.scss';
+
+.prev,
+.next {
+  i {
+    @include flexBox(center, center, row);
+    width: 70px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 52px;
+    pointer-events: none;
+  }
+}
+
+.contentPageBtn {
+  @include flexBox(space-between, center, row);
+  width: 100px;
+  li {
+    button {
+      width: 9px;
+      height: 9px;
+      margin-bottom: 30px;
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 50%;
+    }
+    .onClick {
+      background: rgba(0, 0, 0, 1);
+    }
+  }
+}
+
+.title {
+  margin: 120px auto 80px;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.linkBtn {
+  display: block;
+  width: 300px;
+  height: 50;
+  margin: 60px auto 120px;
+  font-size: 14px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 48px;
+  border: 1px solid $--border-line;
+  cursor: pointer;
+}
