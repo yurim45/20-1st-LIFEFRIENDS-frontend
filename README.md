@@ -71,6 +71,10 @@
 
 <br />
 
+![](https://images.velog.io/images/april_5/post/74d067b7-6ffb-4095-b2e3-77f6b0883ed1/linefriends.png)
+
+<br />
+
 ![](https://media.vlpt.us/images/april_5/post/df2d25b1-3b03-4fca-a6c1-72bf8d1cea78/main.gif)
 
   <br /><br />
